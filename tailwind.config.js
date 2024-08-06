@@ -2,7 +2,11 @@
 module.exports = {
   content: ["content/**/*.md", "layouts/**/*.html", "../../content/**/*.md"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'minecraft': ['MinecraftRegular', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
